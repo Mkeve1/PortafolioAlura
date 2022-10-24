@@ -1,0 +1,181 @@
+.container_experiencia{
+    display: flexbox;
+    margin: 25px 0px;
+}
+.container_experiencia_laboral{
+    display: flexbox;
+}
+.imagen_ahorcado{
+    border-radius: 35px;
+    height: 320px;
+    width: 520px;
+    border: 15px solid #EAF2FD;;
+}
+.container_juegoAhorcado{
+    margin: 45px 75px;
+    display: flex;
+    align-items: center;
+   
+}
+.titulo_experiencia{
+    text-align: center;
+    font-size: 55px;
+    font-family: "Carter One",cursive;
+    color:#464646;
+}
+.botones{
+    margin-left: 10px;
+    padding: 1em;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: "Carter One",cursive;
+    background: #2A7AE4;
+    color: #EAF2FD;
+    border: 3px solid #5F6A6A
+}
+.botones_repositorio{
+    margin-left: 20px;
+    padding: 1em;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: "Carter One",cursive;
+    background: #EAF2FD;
+    color: #2A7AE4;
+    border: 3px solid #2980B9
+
+}
+.botones_informacion{
+    display: flexbox;
+}
+.informacion_laboral{
+    text-align: center;
+    font-size: 35px;
+    font-family: "Carter One",cursive;
+    color:#464646;
+    margin-bottom: 25px;
+}
+.descripcion_laboral{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 45px;
+}
+.imagen_Encriptador{
+    border-radius: 35px;
+    height: 320px;
+    width: 520px;
+    border: 15px solid #EAF2FD;
+    
+    
+}
+.container_Encriptador{
+    display: flex;
+    margin: 45px 75px;
+    align-items: center;
+    justify-content: right;
+    margin-right: 15px;
+}
+
+.container_aluraStore{
+    margin: 45px 75px;
+    display: flex;
+    align-items: center;
+}
+
+.imagen_alurastore{
+    border-radius: 35px;
+    height: 320px;
+    width: 520px;
+    border: 15px solid #EAF2FD;;  
+}
+
+.informacion_laboral_e{
+    text-align: center;
+    font-size: 35px;
+    font-family: "Carter One",cursive;
+    color:#464646;
+    margin-bottom: 25px;
+    margin-right: 25px;
+}
+
+.descripcion_laboral_e{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 45px;
+    margin-right: 25px;
+    
+}
+.botones_e{
+    margin-right: 30px;
+    padding: 1em;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: "Carter One",cursive;
+    background: #2A7AE4;
+    color: #EAF2FD;
+    border: 3px solid #5F6A6A
+}
+.botones_repositorio_e{
+    padding: 1em;
+    border-radius: 10px;
+    text-decoration: none;
+  
+}
+
+@media only screen and (max-width: 600px) {
+    .container_experiencia_laboral{
+        display: block;
+    }
+
+    .container_juegoAhorcado{
+        margin: 0px;
+        display: block;
+        text-align: center;
+    }
+
+    .imagen_ahorcado{
+        text-align: center;
+        width: 300px;
+        
+    }
+    .botones_informacion{
+        text-align: center;
+    }
+
+    .container_Encriptador{
+    
+        margin-top: 45px;
+        margin-left: 15px;
+        display: block;
+        text-align: center;
+    }
+
+    .imagen_Encriptador{
+        text-align: center;
+        width: 300px; 
+        margin-right: 55px; 
+    }
+    .botones_repositorio_e{
+        text-align: center;
+        margin-right: 55px;
+    }
+    .container_aluraStore{
+        margin: 0px;
+        display: block;
+        text-align: center;
+    }
+    .imagen_alurastore{
+        text-align: center;
+        width: 300px;
+    }
+    .informacion_laboral{
+        margin-left: 20px;
+    }
+    .descripcion_laboral{
+        margin-left: 45px;
+        line-height: 1.5em;
+    }
+    .botones_repositorio_e{
+        margin: 0px;
+        
+    }
+}

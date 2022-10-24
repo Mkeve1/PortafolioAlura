@@ -1,0 +1,76 @@
+.texto__skills{
+    margin-top: 50px;
+    font-family: "Carter One",cursive;
+    font-size: 55px;
+    text-align: center;
+}
+.container{
+    display: flexbox;
+    background: #f5f5f5;
+}
+.container_titulo{
+    font-family: "Carter One",cursive;
+    color:#464646;
+}
+.container_items{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container_objetos{
+    background: #ffffff;
+    border-radius: 15px;
+    display: inline-block;
+    width: 185px;
+    height: 155px;
+    padding: 0.25rem;
+    border: 7px solid #EAF2FD ;
+    
+}
+.imagen_objeto{
+   align-items: center;
+   margin-top: 75px;
+   margin-left: 25px;
+}
+
+.nombre_objeto{
+    
+    margin-top: 5px;
+    margin-left: 25px;
+ 
+ }   
+
+ .container_titulo__hobiies{
+    margin-top: 70px;
+    font-family: "Carter One",cursive;
+    font-size: 55px;
+    text-align: center;
+    color:#464646;
+ }
+
+ @media only screen and (max-width: 600px) {
+
+.container{
+    display: block;
+    padding: 0%;
+    align-items: center;
+}
+
+.container_items{
+    display: block;
+    text-align: center;
+    
+    
+    justify-content:space-between;
+    
+}
+.imagen_objeto{
+    margin-left: 0px;
+}
+.nombre_objeto{
+    margin-left: 0px;
+}
+
+
+ }

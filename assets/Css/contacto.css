@@ -1,0 +1,57 @@
+.container_contacto{
+    background: #EAF2FD;
+}
+.imagen_contacto{
+    height: 250px;
+    width: 320px;
+}
+.texto_contacto{
+    font-family: "Carter One",cursive;
+    font-size: 55px;
+    text-align: center;
+    color:#464646;
+    padding: 0.75em;
+}
+.input-padron{
+    display: block;
+    margin-right: 70px;
+    padding: 10px 25px;
+    width: 75%;
+    margin-bottom: 25px;
+}
+.contenedor_total{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 60px;
+}
+.enviar{
+    margin-bottom: 25px;
+}
+.texto_footer{
+    font-family: "Carter One",cursive;
+    text-align: center;
+    font-size: 15px;
+    
+}
+.texto_numero{
+    text-align: center;
+}
+.footer{
+    margin: 25px 0px;
+    justify-items: center;
+}
+
+
+@media only screen and (max-width: 600px){
+
+    .container_contacto{
+        display: block;
+    }
+    .contenedor_total{
+        display: block;
+       
+    }
+
+}
+

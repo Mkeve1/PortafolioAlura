@@ -1,0 +1,41 @@
+.container_formacion{
+    display: flexbox;
+    margin:  25px 0px;
+    background: #EAF2FD ;
+}
+
+.titulo{
+    font-family: "Carter One",cursive;
+    font-size: 50px;
+    text-align: center;
+    color:#464646;
+    padding: 1.75rem;
+}
+.container_imagen{
+    margin: 25px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.imagens_formacion_modificacion{
+    margin-left: 20px;
+    height: 130px;
+    width: 190px;
+}
+.titulo_formaciones{
+    text-align: center;
+    font-family: "Carter One",cursive;
+}
+.parrafo_formaciones{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .container_imagen{
+        display: block;
+        text-align: center;
+    }
+}
